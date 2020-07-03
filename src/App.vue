@@ -1,11 +1,15 @@
 <template>
+<b-container>
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/pets">Pets</router-link> |
+      <router-link to="/dogs">Dogs</router-link> |
+      <router-link to="/cats">Cats</router-link>
     </div>
     <router-view/>
   </div>
+  </b-container>
 </template>
 
 <style lang="scss">
